@@ -1,0 +1,8 @@
+<!--components/f-swiper/f-swiper.wxml-->
+  <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" indicator-active-color="#ff5777" interval="3000" circular="{{true}}">
+    <block wx:for="{{images}}" wx:key="{{index}}">
+      <swiper-item>
+        <image class="swiper-image" src="{{item}}" mode="widthFix"></image>
+      </swiper-item>
+    </block>
+  </swiper>

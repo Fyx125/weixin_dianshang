@@ -1,0 +1,85 @@
+/* pages/details/childComponents/f-shop-info/f-shop-info.wxss */
+.shop-info{
+  padding: 20rpx;
+  border-bottom: 16rpx solid #f2f2f2;
+}
+
+.shop-info .log-title{
+  position: relative;
+  margin-top: 20rpx;
+}
+.log-title .logo{
+  height: 100rpx;
+  width: 100rpx;
+  margin-right: 20rpx;
+  border: 1rpx solid #777;
+  border-radius: 50%;
+}
+.log-title .name{
+  position: relative;
+  top: -30rpx;
+  font-size: 42rpx;
+  color: #777;
+}
+
+.shop-info .sell-info{
+  display: flex;
+}
+.sell-info .sell-item{
+  flex: 1;
+  display: flex;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.count-info{
+  padding: 20rpx 10rpx;
+}
+ .count{
+  font-size: 38rpx;
+  margin-bottom: 20rpx;
+}
+.text{
+  font-size: 30rpx;
+}
+.sell-info .goods-count{
+  border-right: 1rpx solid #f2f2f2;
+}
+.sell-item .count-item{
+  flex: 1;
+  text-align: center;
+  color: #777;
+}
+.grade-info{
+  flex-direction: column;
+}
+.grade-item{
+  display: flex;
+}
+.grade-item .item{
+  font-size: 28rpx;
+  color: #777;
+  padding: 4rpx;
+}
+.grade-item .name{
+  width: 200rpx;
+}
+.grade-item .score{
+  flex: 1;
+}
+.grade-item .better{
+  flex: 1;
+}
+.good{
+  color:#ff5777 !important;
+}
+.less{
+  color:#5ea732 !important;
+}
+.shop-info .entrance{
+  margin: 30rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+}
+.entrance .button{
+  padding: 10rpx 100rpx;
+}

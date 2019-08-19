@@ -1,0 +1,23 @@
+/* pages/profile/childComponents/f-list-view/f-list-view.wxss */
+.list-view{
+  border-top: 36rpx solid #f2f2f2;
+}
+.item{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 10rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+.item:last-child{
+  border: none;
+}
+.icon{
+  height: 40rpx;
+  width: 40rpx;
+}
+.text{
+  color:#777;
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  display: block;
+}

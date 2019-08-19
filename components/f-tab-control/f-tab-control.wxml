@@ -1,0 +1,9 @@
+<!--components/f-tab-control/f-tab-control.wxml-->
+<view class="tab-contral">
+  <block wx:for="{{titles}}" wx:key="{{index}}">
+    <view class="tab-item {{defaultActive==index?'active':''}}" bindtap="handleTabChange" data-index="{{index}}">
+      <text class="tab-text">{{item}}</text>
+    </view>
+  </block>
+</view>
+

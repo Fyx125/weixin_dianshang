@@ -1,0 +1,46 @@
+/* pages/details/childComponents/f-detail-info/f-detail-info.wxss */
+.detail-info{
+  border-bottom: 16rpx solid #f2f2f2;
+}
+.detail-info .header{
+  position: relative;
+  padding: 30rpx 10rpx;
+  font-size: 32rpx;
+  color: #777;
+}
+.header .line{
+  width: 180rpx;
+  height: 1rpx;
+  background-color: #666;
+  margin: 30rpx 0;
+  position: relative;
+}
+.header .end{
+  float: right;
+}
+.header .start::before,.header .end::after{
+  content: '';
+  position: absolute;
+  height: 10rpx;
+  width: 10rpx;
+  background-color: #333;
+}
+.header .start::before{
+  bottom: 0;
+}
+.header .end::after{
+  right: 0;
+  bottom: 0;
+}
+
+.detail-info .content{
+  padding: 30rpx 0;
+}
+.content .title{
+  padding: 20rpx 30rpx;
+  color: #777;
+  font-size: 32rpx;
+}
+.content .image{
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+/**index.wxss**/
+.index{
+  height: 100%;
+}
+.index .scroll-view{
+  height: 100%;
+}
+.index .scroll-view .popular .popular-image{
+  width: 100%;
+  
+}
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}

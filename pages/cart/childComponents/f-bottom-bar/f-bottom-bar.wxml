@@ -1,0 +1,23 @@
+<!--pages/cart/childComponents/f-bottom-bar/f-bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="check-box">
+    <f-check-icon isChecked="{{selected}}" bindtap="onSelectAll"/>
+    <!-- 使用外部样式给组件内部定义样式 -->
+    <!-- <f-check-icon icon="icon" isChecked="{{}}"/> -->
+    <view class="check-all">全选</view>
+  </view>
+  <view class="counter">总计：￥{{numberUtil.numberFormat(price)}}</view>
+  <view class="payment">去计算({{counter}})</view>
+</view>
+<wxs module="numberUtil">
+var numberUtil = {
+     numberFormat: function (value) {
+             var v = parseFloat(value)//强转Float，毕竟有可能返回是String类型的数字
+             return v.toFixed(2)
+     }
+}
+
+module.exports = {
+     numberFormat: numberUtil.numberFormat//暴露接口调用
+}
+</wxs>

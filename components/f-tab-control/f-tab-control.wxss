@@ -1,0 +1,19 @@
+/* components/f-tab-control/f-tab-control.wxss */
+.tab-contral{
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  padding-bottom: 20rpx;
+}
+.tab-contral .tab-item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: #ff5777;
+}
+.active .tab-text{
+  padding: 20rpx 16rpx;
+  border-bottom: 6rpx solid #ff5777;
+}

@@ -1,0 +1,16 @@
+<!--pages/profile/childComponents/f-header/f-header.wxml-->
+<view class="header">
+  <view class="avatar">
+    <image class="avatar-image" src="/assets/images/profile/avatar.png"/>
+  </view>
+  <view class="user">
+    <text class="title">登录/注册</text>
+    <view class="phone">
+      <image class="phone-image" src="/assets/images/profile/phone.png"/>
+      <text class="info">暂无绑定手机号</text>
+    </view>
+  </view>
+  <view class="arrow">
+    <image class="arrow-image" src="/assets/images/common/arrow-right.png"/>
+  </view>
+</view>

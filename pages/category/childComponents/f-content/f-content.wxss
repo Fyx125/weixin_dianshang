@@ -1,0 +1,26 @@
+/* pages/category/childComponents/f-content/f-content.wxss */
+.content{
+  height: 100%;
+}
+.content .subcategory{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  margin-top: 30rpx;
+}
+.subcategory .item{
+  width: 33.33%;
+  text-align: center;
+}
+.item .item-image{
+  width: 80%;
+}
+.item .title{
+  display: block;
+  color: #777;
+  font-size: 30rpx;
+  margin: 30rpx 0;
+}
+.detail{
+  width: 100%;
+}

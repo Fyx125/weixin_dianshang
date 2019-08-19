@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="index">
+  <!-- 使用scroll-view是为了防止返回顶部出现bug -->
+  <scroll-view class="scroll-view"  scroll-y bindscrolltolower="loadMore"
+              scroll-with-animation="true"
+              scroll-top="{{topPosition}}"
+              bindscroll="scrollPosition">
+    <!-- 轮播图 -->
+    <f-swiper images="{{banners}}"/>
+    <!-- 热门推荐 -->
+    <f-recommend recommend="{{recommends}}"/>
+    <!-- 本周流行 -->
+    <view class="popular">
+      <image class="popular-image" src="/assets/images/home/recommend_bg.jpg" mode="widthFix"/>
+    </view>
+    <!-- 商品信息tab选项 -->
+    <f-tab-control id="tab-control" class="{{isTapFixed?'fixed':''}}" titles="{{titles}}" bindtabchange="handleTabChange"/>
+    <f-tab-control titles="{{titles}}" wx:if="{{isTapFixed}}"/>
+    <!-- 商品信息展示 -->
+    <f-goods goodsList="{{goods[currentType].list}}"/>
+    <!-- 返回顶部  hidden对自定义组件无效-->
+    <f-return-top wx:if="{{isShow}}"/>
+  </scroll-view>
+</view>

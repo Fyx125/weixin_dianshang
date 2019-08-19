@@ -1,0 +1,9 @@
+/* pages/details/details.wxss */
+
+/* 用100%不生效 */
+.details{
+  height: calc(100vh - 120rpx);
+}
+.h-swiper swiper{
+  height: 800rpx;
+}

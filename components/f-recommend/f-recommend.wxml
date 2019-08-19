@@ -1,0 +1,7 @@
+<!--components/f-recommend/f-recommend.wxml-->
+<view class="recommend">
+  <view class="item" wx:for="{{recommend}}" wx:key="{{index}}">
+    <image class="recommend-image" src="{{item.image}}"/>
+    <text class="recommend-text">{{item.title}}</text>
+  </view>
+</view>

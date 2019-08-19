@@ -1,0 +1,5 @@
+<!--components/f-return-top/f-return-top.wxml-->
+
+<view class="return-top" bindtap="handleReturnTop">
+  <image class="image" src="/assets/images/common/top.png" mode="widthFix"/>
+</view>

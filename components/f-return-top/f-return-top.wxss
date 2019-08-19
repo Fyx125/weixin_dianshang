@@ -1,0 +1,10 @@
+/* components/f-return-top/f-return-top.wxss */
+.return-top{
+  position: fixed;
+  right: 10rpx;
+  bottom: 120rpx;
+}
+.return-top .image{
+  height: 80rpx;
+  width: 80rpx;
+}

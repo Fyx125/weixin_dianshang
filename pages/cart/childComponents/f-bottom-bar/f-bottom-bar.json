@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "f-check-icon":"/components/f-check-icon/f-check-icon"
+  }
+}

@@ -1,0 +1,42 @@
+/* components/f-goods-item/f-goods-item.wxss */
+.goods-item{
+  padding-bottom: 85rpx;
+}
+.goods-item-image{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.item-box{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5rpx;
+}
+.title{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-indent: 8rpx;
+  font-size: 28rpx;
+}
+.price-favor{
+  position: relative;
+  text-align: center;
+  font-size: 26rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+}
+.price-favor .price{
+  color: #ff5777;
+  margin-right: 18rpx;
+}
+.price-favor .favor{
+  position: relative;
+  top:5rpx;
+  height: 30rpx;
+  width: 30rpx;
+  padding:0 6rpx 0 8rpx; 
+}
+.price-favor .favor-num{
+  color: #555;
+}

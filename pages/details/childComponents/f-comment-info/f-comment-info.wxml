@@ -1,0 +1,23 @@
+<!--pages/details/childComponents/f-comment-info/f-comment-info.wxml-->
+<view class="comment-info">
+  <view class="header">
+    <!-- <text>用户评价</text>
+    <text decode="true">更多&gt;&gt;</text> -->
+    <view>用户评价</view>
+    <view>更多>></view>
+  </view>
+  <view class="user">
+    <image class="user-image" src="{{commentInfo.user.avatar}}"/>
+    <text class="user-name">{{commentInfo.user.uname}}</text>
+  </view>
+  <view class="comment">{{commentInfo.content}}</view>
+  <view class="other-info">
+    <view class="time">{{commentInfo.created}}</view>
+    <view class="style">{{commentInfo.style}}</view>
+  </view>
+  <view class="picture">
+    <block wx:for="{{commentInfo.images}}" wx:key="{{index}}">
+      <image class="image" src="{{item}}" mode="widthFix"/>
+    </block>
+  </view>
+</view>

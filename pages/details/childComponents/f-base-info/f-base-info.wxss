@@ -1,0 +1,60 @@
+/* pages/details/childComponents/f-base-info/f-base-info.wxss */
+.base-info{
+  padding: 20rpx;
+  border-bottom: 16rpx solid #f2f2f2;
+}
+.base-info .title{
+  color: #777;
+  font-size: 32rpx;
+}
+.base-info .price-info{
+  font-size: 30rpx;
+  margin-top: 10rpx; 
+}
+.base-info .price-info .new-price{
+  font-size: 32rpx;
+  color: #ff5777;
+  padding: 0 10rpx;
+}
+.base-info .price-info .old-price{
+  text-decoration:line-through;
+  color: #777;
+  padding: 0 20rpx 0 16rpx;
+}
+.base-info .price-info .discount{
+  border-radius: 16rpx;
+  background-color: #ff5777;
+  color: #fff;
+  padding:4rpx 6rpx;
+  font-size: 24rpx;
+  vertical-align:text-top;
+}
+.sell-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26rpx;
+  padding: 10rpx 0;
+  border-bottom: 4rpx solid #f2f2f2;
+}
+.sell-info .sell-item{
+  color: #777;
+  font-size: 28rpx;
+}
+.service{
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+.service .service-item{
+  position: relative;
+  display: flex;
+  font-size: 24rpx;
+  color: #777;
+}
+.service .service-item .icon{
+  position: relative;
+  top: 6rpx;
+  height: 22rpx;
+  width: 22rpx;
+  margin-right: 4rpx;
+}

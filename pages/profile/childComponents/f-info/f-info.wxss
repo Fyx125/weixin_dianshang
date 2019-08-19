@@ -1,0 +1,22 @@
+/* pages/profile/childComponents/f-info/f-info.wxss */
+.info{
+  display: flex;
+  text-align: center;
+}
+.info-item{
+  color:#777;
+  font-size: 32rpx;
+  border-right: 2rpx solid #f2f2f2;
+  padding:40rpx;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+
+.num{
+  color: #ff5777;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.text{
+  font-size: 30rpx;
+}

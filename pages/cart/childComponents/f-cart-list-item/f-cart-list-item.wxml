@@ -1,0 +1,16 @@
+<view class="cart-list-item">
+  <view class="item-icon">
+    <f-check-icon bindtap="onCheckClick" data-index="{{index}}" isChecked="{{goods.checked}}" />
+  </view>
+  <view class="item-image">
+    <image class="image" src="{{goods.imageURL}}" mode="widthFix" />
+  </view>
+  <view class="item-info">
+    <view class='title'>{{goods.title}}</view>
+    <view class='desc'>{{goods.desc}}</view>
+    <view class='price-count'>
+      <view class='price'>¥{{goods.price}}</view>
+      <view class='count'>x{{goods.count}}</view>
+    </view>
+  </view>
+</view>

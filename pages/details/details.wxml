@@ -1,0 +1,20 @@
+<!--pages/details/details.wxml-->
+<scroll-view class="details" bindscroll="scrollPosition" scroll-top="{{topPosition}}" scroll-y>
+  <f-swiper class="h-swiper" images="{{topImages}}"/>
+  <!-- 商品基本信息 -->
+  <f-base-info baseInfo="{{baseInfo}}"/>
+  <!-- 店家基本信息 -->
+  <f-shop-info shopInfo="{{shopInfo}}"/>
+  <!-- 商品详细信息和穿着效果 -->
+  <f-detail-info detailInfo="{{detailInfo}}"/>
+  <!-- 商品尺码参数 -->
+  <f-param-info paramInfo="{{paramInfo}}"/>
+  <!-- 用户评价 -->
+  <f-comment-info commentInfo="{{commentInfo}}"/>
+  <!-- 商品推荐 -->
+  <f-recommend-info recommends="{{recommends}}" />
+  <!-- 返回顶部 -->
+  <f-return-top bindtap="onReturnTop" wx:if="{{isShow}}"/>
+</scroll-view>
+<!-- 底部功能区 -->
+<f-bottom-bar bindaddcart="onAddCart" />

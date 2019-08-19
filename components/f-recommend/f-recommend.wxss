@@ -1,0 +1,19 @@
+/* components/f-recommend/f-recommend.wxss */
+.recommend{
+  display: flex;
+  padding: 30rpx 10rpx;
+  border-bottom: 16rpx solid #eee;
+}
+.recommend .item{
+  flex: 1;
+  text-align: center;
+}
+.recommend .item .recommend-image{
+  height: 160rpx;
+  width: 160rpx;
+}
+.recommend .item .recommend-text{
+  font-size: 30rpx;
+  color:#555;
+  display: block;
+}

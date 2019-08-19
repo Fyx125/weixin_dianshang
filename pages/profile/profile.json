@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "f-header":"./childComponents/f-header/f-header",
+    "f-info":"./childComponents/f-info/f-info",
+    "f-list-view":"./childComponents/f-list-view/f-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
+}

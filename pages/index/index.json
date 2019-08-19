@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "f-swiper":"/components/f-swiper/f-swiper",
+    "f-recommend":"/components/f-recommend/f-recommend",
+    "f-tab-control": "/components/f-tab-control/f-tab-control",
+    "f-goods": "/components/f-goods/f-goods",
+    "f-return-top":"/components/f-return-top/f-return-top"
+  },
+  "navigationBarTitleText": "购物街"
+}

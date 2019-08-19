@@ -1,0 +1,36 @@
+/* pages/cart/childComponents/f-bottom-bar/f-bottom-bar.wxss */
+.bottom-bar{
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  padding-left: 30rpx;
+  background-color: #eee;
+  box-shadow: 0 -4rpx 4rpx rgba(0, 0, 0, 0.1);
+  font-size: 28rpx;
+}
+.bottom-bar .check-box{
+  display: flex;
+  width: 150rpx;
+  align-items: center;
+  color: #777;
+}
+.check-box .check-all{
+  margin-left: 10rpx;
+}
+.counter{
+  flex: 1;
+  font-size: 32rpx;
+  color: #333;
+}
+.payment{
+  width: 200rpx;
+  line-height: 88rpx;
+  background-color: #ff4500;
+  color: #fff;
+  text-align: center;
+}
+
+/* 给内部组件定义的样式 */
+/* .icon {
+  margin-right: 10rpx;
+} */

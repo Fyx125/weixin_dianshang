@@ -1,0 +1,14 @@
+<!--pages/category/childComponents/f-content/f-content.wxml-->
+<scroll-view class="content" scroll-y="true">
+  <view class="subcategory">
+    <block wx:for="{{subcategories}}" wx:key="{{index}}">
+      <view class="item">
+        <image class="item-image" src="{{item.image}}" mode="widthFix"/>
+        <text class="title">{{item.title}}</text>
+      </view>
+    </block>
+  </view>
+  <view class="detail">
+    <f-goods goodsList="{{categoryDetail}}"/>
+  </view>
+</scroll-view>

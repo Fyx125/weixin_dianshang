@@ -1,0 +1,43 @@
+/* pages/profile/childComponents/f-header/f-header.wxss */
+.header{
+  height: 180rpx;
+  background-color: #ff5777;
+  display: flex;
+  padding: 30rpx;
+  align-items: center;
+}
+
+.avatar-image{
+  height: 140rpx;
+  width: 140rpx;
+  border-radius:50%; 
+  border: 2rpx solid #f2f2f2;
+  background-color: #fff;
+}
+.user{
+  margin-left: 40rpx;
+  flex:1;
+  color:#fff;
+}
+.user .title{
+  font-size: 36rpx;
+}
+.phone{
+  position: relative;
+}
+.phone .info{
+  font-size: 28rpx;
+  margin-left: 12rpx; 
+}
+.phone-image{
+  height: 40rpx;
+  width: 40rpx;
+  position: relative;
+  top: 10rpx;
+}
+
+.arrow-image{
+  height: 60rpx;
+  width: 60rpx;
+}
+

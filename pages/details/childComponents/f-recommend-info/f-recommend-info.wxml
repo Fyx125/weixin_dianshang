@@ -1,0 +1,7 @@
+<!--pages/details/childComponents/f-recommend-info/f-recommend-info.wxml-->
+<view class="recommend-info">
+  <view class="title">商品推荐</view>
+  <view class="content">
+    <f-goods goodsList="{{recommends}}" />
+  </view>
+</view>

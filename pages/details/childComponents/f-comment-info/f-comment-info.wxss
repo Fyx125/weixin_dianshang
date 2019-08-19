@@ -1,0 +1,53 @@
+/* pages/details/childComponents/f-comment-info/f-comment-info.wxss */
+.comment-info{
+  border-bottom: 16rpx solid #f2f2f2;
+  padding: 30rpx 20rpx;
+  color: #777;
+}
+.comment-info .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 10rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+  font-size: 32rpx;
+}
+.user{
+  padding: 20rpx 0;
+}
+.user .user-image{
+  height: 100rpx;
+  width: 100rpx;
+  border:2rpx solid #f2f2f2;
+  border-radius: 50%; 
+  vertical-align: middle;
+}
+.user .user-name{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  font-size: 32rpx;
+}
+.comment{
+  margin-top: 10rpx;
+  text-indent: 56rpx;
+  font-size: 28rpx;
+}
+.other-info{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 14rpx;
+  padding-bottom: 30rpx;
+  font-size: 26rpx;
+}
+.other-info .time{
+  margin-right: 10rpx;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.picture .image {
+  max-width: 30%;
+}
